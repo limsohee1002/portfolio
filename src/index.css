@@ -32,12 +32,7 @@ body {
   width: 100%; */
 }
 
-::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
-}
+
 
 /*App*/
 .App {
@@ -120,7 +115,7 @@ body {
 }
 
 .menu-list h3:hover{
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .menu-list li {
@@ -259,11 +254,12 @@ body {
 }
 
 .maininner-2 .name {
-  color: rgba(255, 0, 0, 0.897);
+  color: rgba(0, 0, 0, 0.897);
   position: absolute;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   top: 0;
+  left: 25%;
 }
 
 .Tilt {
@@ -276,10 +272,10 @@ body {
 .maininner-2 .email {
   position: absolute;
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  color: rgba(0, 255, 0, 0.897);
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.897);
   top: 20%;
-  left: 30%;
+  left: 25%;
 }
 
 .maininner-2 .email span {
@@ -289,11 +285,11 @@ body {
 .maininner-2 .loc {
   position: absolute;
   font-family: 'Montserrat', sans-serif;
-  font-size: 46px;
+  font-size: 50px;
   width: 100%;
-  color: rgba(0, 255, 255, 0.945);
+  color: rgba(0, 0, 0, 0.945);
   top: 46%;
-  left: -2%;
+  left: 25%;
 }
 
 .maininner-2 .loc span {
@@ -342,12 +338,17 @@ body {
 }
 
 .skilltitle>h2 {
-  position: relative;
+  /* position: relative;
   font-family: 'Montserrat', sans-serif;
   font-size: 46px;;
   line-height: 60px;
   padding: 0;
-  margin: 0;
+  margin: 0; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  line-height: 90px;
+  padding: 0;
+  margin: 18% 10% 0 0;
   /* text-align: right; */
   /* right: 56%; */
 }
@@ -464,26 +465,39 @@ justify-content: center;
 
 .app-title {
   /* border: solid blue; */
-  width: 26%;
+  /* width: 26%;
   float: right;
   position: relative;
   margin: 0;
-  left: -10%;
+  left: -10%; */
+  /* border: solid orange; */
+  display: flex;
+  height: 40%;
+  position: relative;
+  /* top: 20%; */
+  left: 8%;
+  width: 40%;
+  flex-direction: column;
 }
 
 .app-title .decocircle {
-  float: right;
+  /* float: right;
   position: absolute;
   left: 40%;
   top: -20%;
   z-index: -2;
-  width: 90%;
+  width: 90%; */
 }
 
 .app-title h2 {
   position: relative;
   
-  text-align: right;
+  /* text-align: right; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  line-height: 90px;
+  padding: 0;
+  margin: 18% 10% 0 0; */
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   line-height: 90px;
@@ -735,37 +749,51 @@ justify-content: center;
 
 .design-title {
   /* border: solid blue; */
-  width: 26%;
+  /* width: 26%; */
   /* float: right; */
-  position: relative;
+  /* position: relative;
   margin: 0;
-  left: -6%;
+  left: -6%; */
+  /* border: solid orange; */
+  display: flex;
+  height: 40%;
+  position: relative;
+  /* top: 20%; */
+  left: 8%;
+  width: 40%;
+  flex-direction: column;
 }
 
 .design-title .decocircle {
   /* float: right; */
-  position: absolute;
+  /* position: absolute;
   left: 16%;
   top: -200%;
   z-index: -2;
-  width:120%;
+  width:120%; */
 }
 
 .design-title h2 {
-  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  line-height: 90px;
+  padding: 0;
+  /* margin: 18% 10% 0 0; */
+  /* text-align: right; */
+  /* position: relative;
   
   text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   line-height: 60px;
   padding: 0;
-  margin: 18% 0 0 0;
+  margin: 18% 0 0 0; */
 }
 
 .design-title .titleline {
-  width: 66%;
+  /* width: 66%;
   float: right;
-  position: relative;
+  position: relative; */
   /* left: 70%; */
 }
 
@@ -941,20 +969,25 @@ justify-content: center;
   }
 
   .app-title {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .app-title .decocircle {
-    width: 100%;
+    /* width: 100%;
     left: 90%;
-    position: absolute;
+    position: absolute; */
   }
 
   .app-title h2 {
-    margin-left: 50%;
+    /* margin-left: 50%; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    /* line-height: 90px;
+    padding: 0; */
+    /* margin: 18% 10% 0 0; */
   }
   .app-title .titleline {
-    left: 60%;
+    /* left: 60%; */
   }  
 
   .app-content {
@@ -974,18 +1007,23 @@ justify-content: center;
   }
 
   .design-title .decocircle {
-    top: -20%;
+    /* top: -20%;
     width: 300%;
-    left: -50%;
+    left: -50%; */
   }
 
   .design-title h2 {
-    margin-top: 40%;
+    /* margin-top: 40%; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    line-height: 90px;
+    padding: 0;
+    /* margin: 18% 10% 0 0; */
   }
 
   .design-title .titleline {
-    width: 180%;
-    left: 60%;
+    /* width: 180%;
+    left: 60%; */
   }
 
   .design-content {

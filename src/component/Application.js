@@ -22,9 +22,9 @@ class Application extends Component {
     return (
       <div className="application">
         <div className="app-title">
-          <img className="decocircle" src="IMG_0011.JPG"/>
+          {/* <img className="decocircle" src="IMG_0011.JPG"/> */}
           <h2>PROJECTS</h2>
-          <img className="titleline" src="./titleline-01.png"/>
+          {/* <img className="titleline" src="./titleline-01.png"/> */}
         </div>
         <div>
         <div className="app-content">

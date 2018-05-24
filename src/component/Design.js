@@ -7,9 +7,9 @@ class Design extends Component {
     return (
       <div>
         <div className="design-title">
-          <img className="decocircle" src="IMG_0018.png"/>
+          {/* <img className="decocircle" src="IMG_0018.png"/> */}
           <h2>Design</h2>
-          <img className="titleline" src="./titleline-01.png"/>
+          {/* <img className="titleline" src="./titleline-01.png"/> */}
         </div>
         <div className="design-content">
         <Carousel emulateTouch>

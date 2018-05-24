@@ -8,15 +8,10 @@ class About extends Component {
         <div className="skill">
 
           <div className="skilltitle">
-            <img className="decocircle" src="./IMG_0008.JPG"/>
-            <h2>TECH<br/>STACKS</h2>
-            <img className="titleline" src="./titleline-01.png"/>
-            <p>
-              I am javascript focused software engineer. <br/>
-              I made several web application with react, I've also experienced angular.<br/>
-              Also I am familar with SQL and noSQL database.<br/>
-              I can uas several design tool as well!
-            </p>
+            {/* <img className="decocircle" src="./IMG_0008.JPG"/> */}
+            <h2>TECH STACKS</h2>
+            {/* <img className="titleline" src="./titleline-01.png"/> */}
+           <p></p>
           </div>
 
           <div className="skill-box">
